@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 
-const API_URL = import.meta.env.API_URL || 'http://localhost:5000/api/chat';
+const API_URL = import.meta.env.API_URL || 'https://vet-chatbot-backend-nestjs.onrender.com/api/chat';
 // const API_BACKEND_BASE_URL = process.env.API_BACKEND_BASE_URL;
 
 export const useChat = () => {
