@@ -164,17 +164,6 @@ const ChatWidget = () => {
                     <Send size={18} />
                 </button>
             </div>
-
-            {/* Powered By */}
-            <div style={{
-                textAlign: 'center',
-                fontSize: '10px',
-                color: '#9ca3af',
-                padding: '4px',
-                backgroundColor: '#f9fafb'
-            }}>
-                Powered by Gemini AI
-            </div>
         </div>
     );
 };
